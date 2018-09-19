@@ -1,5 +1,5 @@
-{% set name = "sk-video" %}
-{% set version = "1.1.10" %}
+{% set name = "scikit-video" %}
+{% set version = "1.1.11" %}
 {% set sha256 = "fb7125cfa2b31253dcf181d0bf285edd6bb25ffebf61dbd8ba11fadb783609a1" %}
 
 package:
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 4
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
