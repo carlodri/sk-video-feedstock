@@ -1,5 +1,5 @@
-About sk-video
-==============
+About scikit-video
+==================
 
 Home: https://github.com/scikit-video/scikit-video
 
@@ -24,27 +24,27 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-sk--video-green.svg)](https://anaconda.org/conda-forge/sk-video) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sk-video.svg)](https://anaconda.org/conda-forge/sk-video) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sk-video.svg)](https://anaconda.org/conda-forge/sk-video) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sk-video.svg)](https://anaconda.org/conda-forge/sk-video) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-scikit--video-green.svg)](https://anaconda.org/conda-forge/scikit-video) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/scikit-video.svg)](https://anaconda.org/conda-forge/scikit-video) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/scikit-video.svg)](https://anaconda.org/conda-forge/scikit-video) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/scikit-video.svg)](https://anaconda.org/conda-forge/scikit-video) |
 
-Installing sk-video
-===================
+Installing scikit-video
+=======================
 
-Installing `sk-video` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `scikit-video` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `sk-video` can be installed with:
+Once the `conda-forge` channel has been enabled, `scikit-video` can be installed with:
 
 ```
-conda install sk-video
+conda install scikit-video
 ```
 
-It is possible to list all of the versions of `sk-video` available on your platform with:
+It is possible to list all of the versions of `scikit-video` available on your platform with:
 
 ```
-conda search sk-video --channel conda-forge
+conda search scikit-video --channel conda-forge
 ```
 
 
@@ -84,17 +84,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating sk-video-feedstock
-===========================
+Updating scikit-video-feedstock
+===============================
 
-If you would like to improve the sk-video recipe or build a new
+If you would like to improve the scikit-video recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/sk-video-feedstock are
+Note that all branches in the conda-forge/scikit-video-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
