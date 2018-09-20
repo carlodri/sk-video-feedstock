@@ -1,6 +1,6 @@
 {% set name = "scikit-video" %}
 {% set version = "1.1.11" %}
-{% set sha256 = "fb7125cfa2b31253dcf181d0bf285edd6bb25ffebf61dbd8ba11fadb783609a1" %}
+{% set sha256 = "5061d2aeae1892b73a97c89a82942b3e8eebf2fe23e59c60e06ede5f8a24ed1e" %}
 
 package:
   name: {{ name|lower }}
